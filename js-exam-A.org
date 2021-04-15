@@ -13,13 +13,13 @@
 
   2. 如何逆序一个字符串？
 
-  3. 接上，为什么不能直接使用
+  3. 接上,为什么不能直接使用
      #+BEGIN_SRC javascript
      Array.prototype.reverse.call(str)
      #+END_SRC
      逆序字符串？
 
-  4. 判断以下结果，为什么会出现这样的情况，如何做出正确的比较？
+  4. 判断以下结果,为什么会出现这样的情况,如何做出正确的比较？
      #+BEGIN_SRC javascript
      0.1 + 0.2 === 0.3;
      0.8 - 0.6 === 0.3;
@@ -107,7 +107,7 @@
      console.log(foo);
      #+END_SRC
 
-  6. 判断以下结果，如何按序输出(Closure)
+  6. 判断以下结果,如何按序输出(Closure)
      #+BEGIN_SRC javascript
      for (var i = 0; i < 10; i++) {
        setTimeout(function () {
